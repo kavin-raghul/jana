@@ -1,0 +1,81 @@
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\welcome\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     C:\Users\welcome\AppData\Roaming\nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\welcome\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package punkt_tab to
+[nltk_data]     C:\Users\welcome\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt_tab is already up-to-date!
+Successfully imported train_and_evaluate
+Loading data from f:\jana\youtube_comment_classifier\src\..\data\dataset.csv...
+Preprocessing text...
+Extracting features (TF-IDF)...
+
+--- Model Evaluation ---
+
+Naive Bayes Accuracy: 0.0000
+Confusion Matrix:
+[[0 1 0 0]
+ [0 0 0 0]
+ [0 1 0 0]
+ [0 2 0 0]]
+Classification Report:
+              precision    recall  f1-score   support
+
+       Funny       0.00      0.00      0.00       1.0
+        Hate       0.00      0.00      0.00       0.0
+ Informative       0.00      0.00      0.00       1.0
+        Spam       0.00      0.00      0.00       2.0
+
+    accuracy                           0.00       4.0
+   macro avg       0.00      0.00      0.00       4.0
+weighted avg       0.00      0.00      0.00       4.0
+
+
+Logistic Regression Accuracy: 0.0000
+Confusion Matrix:
+[[0 1 0 0]
+ [0 0 0 0]
+ [0 1 0 0]
+ [0 2 0 0]]
+Classification Report:
+              precision    recall  f1-score   support
+
+       Funny       0.00      0.00      0.00       1.0
+        Hate       0.00      0.00      0.00       0.0
+ Informative       0.00      0.00      0.00       1.0
+        Spam       0.00      0.00      0.00       2.0
+
+    accuracy                           0.00       4.0
+   macro avg       0.00      0.00      0.00       4.0
+weighted avg       0.00      0.00      0.00       4.0
+
+
+SVM Accuracy: 0.0000
+Confusion Matrix:
+[[0 1 0 0]
+ [0 0 0 0]
+ [0 1 0 0]
+ [0 2 0 0]]
+Classification Report:
+              precision    recall  f1-score   support
+
+       Funny       0.00      0.00      0.00       1.0
+        Hate       0.00      0.00      0.00       0.0
+ Informative       0.00      0.00      0.00       1.0
+        Spam       0.00      0.00      0.00       2.0
+
+    accuracy                           0.00       4.0
+   macro avg       0.00      0.00      0.00       4.0
+weighted avg       0.00      0.00      0.00       4.0
+
+
+Best Model: Naive Bayes with Accuracy: 0.0000
+Saving best model to f:\jana\youtube_comment_classifier\src\..\model\classifier.pkl...
+Saving vectorizer to f:\jana\youtube_comment_classifier\src\..\model\vectorizer.pkl...
+Training complete!
+Training finished.
